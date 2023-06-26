@@ -17,7 +17,7 @@ const App = () => {
         {Users.filter((user) =>
           user.first_name.toLowerCase().includes(input)
         ).map((user) => (
-          <li className="listItem">{user.first_name}</li>
+          <li className="lisItem">{user.first_name}</li>
         ))}
       </ul>
     </div>
